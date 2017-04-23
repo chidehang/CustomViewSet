@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:padding="5dp">
 
     <Button
@@ -11,4 +12,12 @@
         android:layout_margin="5dp"
         android:onClick="taiChi"
         android:text="太极图" />
+
+    <Button
+        android:id="@+id/btnHeartView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:onClick="heart"
+        android:text="心形" />
 </LinearLayout>

@@ -16,4 +16,8 @@ public class MainActivity extends Activity {
     public void taiChi(View v) {
         startActivity(new Intent(this, TaiChiActivity.class));
     }
+
+    public void heart(View v) {
+        startActivity(new Intent(this, HeartActivity.class));
+    }
 }

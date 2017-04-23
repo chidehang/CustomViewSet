@@ -11,6 +11,7 @@ import android.view.View;
 
 /**
  * Created by hang on 2017/4/23.
+ * 太极图案
  */
 
 public class TaiChiView extends View {
