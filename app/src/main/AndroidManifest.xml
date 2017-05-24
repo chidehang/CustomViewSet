@@ -4,10 +4,10 @@
 
     <application
         android:allowBackup="true"
+        android:hardwareAccelerated="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:hardwareAccelerated="false"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
             <intent-filter>
@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".TaiChiActivity" />
-        <activity android:name=".HeartActivity"></activity>
+        <activity android:name=".HeartActivity" />
+        <activity android:name=".PathActivity"></activity>
     </application>
 
 </manifest>

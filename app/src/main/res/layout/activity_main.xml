@@ -6,6 +6,14 @@
     android:padding="5dp">
 
     <Button
+        android:id="@+id/btnSVGPath"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:onClick="svgPath"
+        android:text="矢量动画" />
+
+    <Button
         android:id="@+id/btnTaiChiView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

@@ -13,6 +13,10 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
     }
 
+    public void svgPath(View v) {
+        startActivity(new Intent(this, PathActivity.class));
+    }
+
     public void taiChi(View v) {
         startActivity(new Intent(this, TaiChiActivity.class));
     }
