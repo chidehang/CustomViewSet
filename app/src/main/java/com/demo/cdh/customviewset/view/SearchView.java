@@ -20,6 +20,7 @@ import java.lang.ref.WeakReference;
 
 /**
  * Created by hang on 2017/5/24.
+ * 搜索动画
  */
 
 public class SearchView extends View {
@@ -228,7 +229,7 @@ public class SearchView extends View {
         ENDING
     }
 
-    static class StateHandler extends Handler {
+    private static class StateHandler extends Handler {
         private WeakReference<SearchView> reference;
         StateHandler(SearchView searchView) {
             reference = new WeakReference<SearchView>(searchView);

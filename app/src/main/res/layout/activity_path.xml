@@ -7,10 +7,23 @@
     android:padding="10dp"
     android:orientation="vertical"
     android:gravity="center_horizontal"
+    android:background="#fff"
     tools:context="com.demo.cdh.customviewset.PathActivity">
 
     <com.demo.cdh.customviewset.view.SearchView
         android:id="@+id/searchView"
         android:layout_width="120dp"
         android:layout_height="120dp"/>
+
+    <com.demo.cdh.customviewset.view.LoadView
+        android:id="@+id/loadSuccess"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="30dp"/>
+
+    <com.demo.cdh.customviewset.view.LoadView
+        android:id="@+id/loadFailure"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="30dp"/>
 </LinearLayout>
